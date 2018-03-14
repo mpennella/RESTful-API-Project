@@ -1,4 +1,7 @@
 # RESTful API Project
+
+CPSC 4820 - Web Development Project 5/6
+
 Requirements:
 
     Run on port 3000
