@@ -1,5 +1,5 @@
 # RESTful API Project
-Project Description: Requirements:
+Requirements:
 
     Run on port 3000
     Requests require basicAuth header
@@ -99,7 +99,7 @@ Project Description: Requirements:
         should return a 200 with no response body
         
         
-Make these changes to your (or my) project 5
+Make these changes to your (or my) project 5:
 
     every student and grade object needs a 'id' key. For students, id=username, for grades, id should already be there
     for GET /grades and GET /students, always return a X-Total-Count header containg the total number of items before any filtering, sorting or pagination. Whenever you send 'X-Total-Count' you will also need to send the header 'Access-Control-Expose-Headers': 'X-Total-Count'
@@ -118,7 +118,7 @@ Make these changes to your (or my) project 5
 
 use notes for 10.23.17 to install yarn, react, create-react-app, and admin-on-rest
 use admin-on-rest tutorial to get started
-admin-on-rest app must
+admin-on-rest app must:
 
     talk to your rest api on port 3001 (hard code IP of your AWS instance, or use a DNS entry)
     implement all the major actions for grades and students (list, create, edit, delete)
